@@ -58,3 +58,23 @@ ALTER COLUMN middle_name TYPE VARCHAR(100);
 TRUNCATE TABLE employees - delete date from table
 drop TABLE employees - delete all table 
 '''
+
+'''
+CREATE TABLE my-test_table(
+    id int PRIMARY KEY DEFAULT NEXTVAL('INCREMENT_BY_2_SEQ'),
+    NAME VARCHAR(20)   
+    AGE INT CHECK ( AGE > 16 ) 
+);
+
+INSERT INTO my_test_table(name)
+VALUES
+    ('KOKO'),
+    ('BOKO'),
+    ('CHOKO')
+;
+
+ALTER SEQUENCE increment_by_2_seq
+START 1
+INCREMENT 2
+
+'''

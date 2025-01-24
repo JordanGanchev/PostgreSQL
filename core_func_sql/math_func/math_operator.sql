@@ -2,7 +2,7 @@ select 2 + 2
 
 4
 
-selekt 5 - 3
+select 5 - 3
 
 2
 

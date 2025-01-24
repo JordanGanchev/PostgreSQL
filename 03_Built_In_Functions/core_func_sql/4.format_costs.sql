@@ -1,4 +1,4 @@
 SELECT
 	title,
 	trunc(cost, 3)
-FROM books
+from books
